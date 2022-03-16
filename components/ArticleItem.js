@@ -9,7 +9,8 @@ const ArticleItem = ({ article }) => {
                     {article.title} &rarr;
                 </h3>
                 <p>
-                    {article.excerpt}
+                    {/* {article.excerpt} */}
+                    {article.body}
                 </p>
             </a>
         </Link>
